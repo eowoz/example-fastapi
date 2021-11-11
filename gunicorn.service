@@ -1,0 +1,13 @@
+[Unit]
+Description=gunicorn instance to server api
+After=network.target
+
+[Service]
+User=oswindsa
+Group=oswindsa
+WorkingDirectory=/home/oswindsa/app/src/
+Environment="PATH=/home/oswindsa/app/venv/bin"
+ExecStarrt=/home/oswindsa/app/venv/bin/gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app --binf 0.0.0.0:8000
+
+[Install]
+WantedBy=multi-user.target
