@@ -16,7 +16,7 @@ from .config import settings
 
 
 # Commenting below line after adding alembic it will take care of creating and upgrading tables
-#models.Base.metadata.create_all(bind=engine) #this will create table if does not exist
+# models.Base.metadata.create_all(bind=engine) #this will create table if does not exist
 
 app = FastAPI()
 
@@ -38,7 +38,7 @@ app.include_router(vote.router)
     
 @app.get("/")
 async def root():
-    return {"message": "welcome to my fastapi implemention!! Check /doc or /redoc for documentation"}
+    return {"message": "welcome to my fastapi implemention!! Check /doc or /redoc for documentation."}
 
 
 
