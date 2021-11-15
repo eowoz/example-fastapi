@@ -1,0 +1,8 @@
+fastAPI documentation - https://fastapi.tiangolo.com/tutorial/cors/
+pytest documentation - https://docs.pytest.org/en/6.2.x/contents.html
+Heroku- postgres documentation - https://devcenter.heroku.com/articles/heroku-postgresql
+Heroku : https://devcenter.heroku.com/articles/getting-started-with-python#define-a-procfile
+Postgres : https://www.postgresqltutorial.com/postgresql-joins/ ( Especially Joins!!!)
+GitHub Actions : https://docs.github.com/en/actions
+                https://docs.github.com/en/actions/quickstart
+    
