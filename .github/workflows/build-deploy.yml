@@ -10,7 +10,7 @@ jobs:
       DATABASE_PASSWORD: ${{secrets.DATABASE_PASSWORD}}
       DATABASE_NAME: ${{secrets.DATABASE_NAME}}
       DATABASE_USERNAME: ${{secrets.DATABASE_USERNAME}}
-      SECRET_KEY: ${{secrets.09d25e0SECRET_KEY94faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7}}
+      SECRET_KEY: ${{secrets.SECRET_KEY}}
       ALGORITHM: ${{secrets.ALGORITHM}}
       ACCESS_TOKEN_EXPIRES_MINUTES: ${{secrets.ACCESS_TOKEN_EXPIRES_MINUTES}}
     runs-on: ubuntu-latest
